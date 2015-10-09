@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Образование</title>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+	<link rel="icon" href="(ссылка на иконку)" type="image/x-icon">
+	<link rel="shortcut icon" href="(ссылка на иконку)" type="image/x-icon">
+</head>
+<body>
+
+
+
+    <div id="login">
+        <form action="javascript:void(0);" method="get">
+               <p><span class="fontawesome-user"></span><input type="text" value="Кафедра" onBlur="if(this.value == '') this.value = 'Кафедра'" onFocus="if(this.value == 'Кафедра') this.value = ''" required></p>
+            <fieldset class="clearfix">
+                <p><span class="fontawesome-user"></span><input type="text" onBlur="if(this.value == '') this.value = 'Университет'" onFocus="if(this.value == 'Логин') this.value = ''" required></p>
+                <p><span class="fontawesome-user"></span><input type="text" value="Факультет" onBlur="if(this.value == '') this.value = 'Факультет'" onFocus="if(this.value == 'Логин') this.value = ''" required></p>             
+                <p><span class="fontawesome-user"></span><input type="text"  value="Группа" onBlur="if(this.value == '') this.value = 'Группа'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+                <p><input type="submit" value="ПРОДОЛЖИТЬ"></p>
+            </fieldset>
+        </form>
+        <p>Заполните позже? &nbsp;&nbsp;<a href="#">Пропустить</a><span class="fontawesome-arrow-right"></span></p>
+    </div>
+</body>
+</html>
