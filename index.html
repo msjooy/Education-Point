@@ -13,11 +13,11 @@
 
     <div id="login">
         <form action="javascript:void(0);" method="get">
-               <p><span class="fontawesome-user"></span><input type="text" value="Кафедра" onBlur="if(this.value == '') this.value = 'Кафедра'" onFocus="if(this.value == 'Кафедра') this.value = ''" required></p>
+                <p><span class="fontawesome-user"></span><input type="text"  placeholder="Группа" required></p> 
+               <p><span class="fontawesome-user"></span><input type="text" placeholder="Кафедра"   required></p>
             <fieldset class="clearfix">
-                <p><span class="fontawesome-user"></span><input type="text" onBlur="if(this.value == '') this.value = 'Университет'" onFocus="if(this.value == 'Логин') this.value = ''" required></p>
-                <p><span class="fontawesome-user"></span><input type="text" value="Факультет" onBlur="if(this.value == '') this.value = 'Факультет'" onFocus="if(this.value == 'Логин') this.value = ''" required></p>             
-                <p><span class="fontawesome-user"></span><input type="text"  value="Группа" onBlur="if(this.value == '') this.value = 'Группа'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+                <p><span class="fontawesome-user"></span><input type="text" placeholder="Университет"  required></p>
+                <p><span class="fontawesome-user"></span><input type="text" placeholder="Факультет" required></p>             
                 <p><input type="submit" value="ПРОДОЛЖИТЬ"></p>
             </fieldset>
         </form>
